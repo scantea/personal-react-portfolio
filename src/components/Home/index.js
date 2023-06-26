@@ -9,13 +9,13 @@ import "./index.scss";
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
 
-  const nameArray = ["a", "h", "a", "r", "a", "i"];
+  const nameArray = ["a", "h", "a", "r", "a", "i", ","];
   const jobArray = [
-    "w",
-    "e",
-    "b",
+    "A",
+    "p",
+    "p",
     " ",
-    "d",
+    "D",
     "e",
     "v",
     "e",
@@ -30,7 +30,7 @@ const Home = () => {
   useEffect(() => {
     return setTimeout(() => {
       setLetterClass("text-animate-hover");
-    }, 4000);
+    }, 8000);
   }, []);
 
   return (
@@ -50,7 +50,7 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
-              idx={16}
+              idx={15}
             />
             <br />
             <AnimatedLetters

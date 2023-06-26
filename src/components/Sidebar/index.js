@@ -8,7 +8,6 @@ import {
   faHome,
   faUser,
   faEnvelope,
-  faSuitcase,
   faBars,
   faClose,
 } from "@fortawesome/free-solid-svg-icons";
@@ -42,14 +41,6 @@ const Sidebar = () => {
         </NavLink>
         <NavLink
           activeclassname="active"
-          className="portfolio-link"
-          to="/portfolio"
-          onClick={() => setShowNav(false)}
-        >
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
-        </NavLink>
-        <NavLink
-          activeclassname="active"
           className="contact-link"
           to="/contact"
           onClick={() => setShowNav(false)}
@@ -67,7 +58,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/saharai-cante-349205137/"
             target="_blank"
             rel="noreferrer"
           >
@@ -79,11 +70,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a
-            href="https://github.com/bobangajicsm"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/scantea" target="_blank" rel="noreferrer">
             <FontAwesomeIcon
               icon={faGithub}
               color="#4d4d4e"

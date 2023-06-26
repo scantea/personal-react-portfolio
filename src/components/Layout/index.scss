@@ -9,7 +9,7 @@
   }
   
   .tags {
-    color: #ffd700;
+    color: #ecebe3;
     opacity: 0.6;
     position: absolute;
     bottom: 0;
@@ -42,7 +42,7 @@
       h1 {
         font-size: 53px;
         font-family: 'Coolvetica';
-        color: #ffd700;
+        color: #eaeae7;
         font-weight: 400;
         margin-top: 0;
         position: relative;
@@ -50,7 +50,6 @@
         left: -10px;
   
         &:before {
-          content: '<h1>';
           font-family: 'La Belle Aurore', cursive;
           color: #ffd700;
           font-size: 18px;
@@ -62,7 +61,6 @@
         }
   
         &:after {
-          content: '<h1/>';
           font-family: 'La Belle Aurore', cursive;
           color: #ffd700;
           font-size: 18px;

@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useEffect, useState } from "react";
 import {
   faAngular,
   faCss3,
@@ -8,12 +8,13 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import Loader from "react-loaders";
-import AnimatedLetters from "../AnimatedLetters";
+// import AnimatedLetters from "../AnimatedLetters";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./index.scss";
 
 const About = () => {
-  const [letterClass] = useState("text-animate");
+  // const [letterClass, setLetterClass] = useState("text-animate");
+  // // const titleArray = ["A", "b", "o", "u", "t", " ", "m", "e"];
 
   // useEffect(() => {
   //   return setTimeout(() => {
@@ -25,26 +26,15 @@ const About = () => {
     <>
       <div className="container about-page">
         <div className="text-zone">
-          <h1>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={["A", "b", "o", "u", "t", " ", "m", "e"]}
-              idx={15}
-            />
-          </h1>
+          <h1>About Me</h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
-          </p>
-          <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
-          </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            Fullstack Software Engineer with experience building complex
+            software systems delivered to Amazon customers and sellers.
+            Regularly took projects from scoping requirements through production
+            launches, while regularly contributing to the maintenance of my
+            team’s data-precision models. Seeking to leverage proven experience
+            to expand my knowledge in ML and data analytics  through project
+            leadership.
           </p>
         </div>
 
