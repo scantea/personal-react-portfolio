@@ -48,3 +48,7 @@ textarea {
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
 }
+
+::-webkit-scrollbar{
+  width:25px;
+}
