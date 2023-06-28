@@ -1,6 +1,7 @@
 .contact-form {
     width: 100%;
     margin-top: 20px;
+    font-size: 20px;
   
     ul {
       padding: 0;
@@ -127,3 +128,11 @@
       display: none;
     }
   }
+.animation-container {
+  width: 50%;
+  height: 100%;
+  top: auto;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+}

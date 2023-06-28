@@ -1,8 +1,9 @@
 // import { useEffect, useRef } from "react";
 // import gsap from "gsap-trial";
 // import DrawSVGPlugin from "gsap-trial/DrawSVGPlugin";
-import LogoS from "../../../assets/images/logo-s.png";
+// import LogoS from "../../../assets/images/logo-s.png";
 import "./index.scss";
+import Self from "../../../assets/images/self.png";
 
 const Logo = () => {
   // const bgRef = useRef();
@@ -38,7 +39,7 @@ const Logo = () => {
 
   return (
     <div className="logo-container">
-      <img className="solid-logo" src={LogoS} alt="JavaScript,  Developer" />
+      <img className="solid-logo" src={Self} alt="JavaScript,  Developer" />
     </div>
   );
 };

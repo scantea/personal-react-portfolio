@@ -4,8 +4,22 @@ import Loader from "react-loaders";
 // import emailjs from "@emailjs/browser";
 // import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
+import lottie from "lottie-web";
+import { useEffect, useRef } from "react";
+import * as ContactAnimation from "../../assets/lottie/contact.json";
 
 const Contact = () => {
+  const container = useRef(null);
+
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: container.current,
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      animationData: ContactAnimation,
+    });
+  }, []);
   // const [letterClass] = useState("text-animate");
   // const form = useRef();
 
@@ -43,12 +57,12 @@ const Contact = () => {
               idx={15}
             /> */}
           </h1>
-          <p>
+          <h2>
             I am interested in full time and part-time opportunities -
-            especially on front-end projects and AI. However, if you have any
-            other requests or questions, don't hesitate to contact me using
-            below form either.
-          </p>
+            especially on front-end focused projects and AI based ones. However,
+            if you have any other requests or questions, don't hesitate to
+            contact me using the form below.
+          </h2>
           <div className="contact-form">
             <form>
               {/* <form ref={form} onSubmit={sendEmail}> */}
@@ -87,6 +101,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <div className="animation-container" ref={container}></div>
       </div>
       <Loader type="pacman" />
     </>
