@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/personal-react-portfolio/static/css/main.0c560f28.css",
-    "main.js": "/personal-react-portfolio/static/js/main.196871da.js",
+    "main.css": "/personal-react-portfolio/static/css/main.1f9ff3ee.css",
+    "main.js": "/personal-react-portfolio/static/js/main.3b4bfb5a.js",
     "static/js/787.a2cb61a6.chunk.js": "/personal-react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/logo-s.png": "/personal-react-portfolio/static/media/logo-s.f89f2ab45655e08ffcea.png",
     "static/media/web-pic.png": "/personal-react-portfolio/static/media/web-pic.4d34fe53eea25a252318.png",
     "static/media/resume.pdf": "/personal-react-portfolio/static/media/resume.cc98d327429046d37fc9.pdf",
+    "static/media/self.png": "/personal-react-portfolio/static/media/self.e2b508e17c239a28cc47.png",
     "static/media/helvetica-neu.ttf": "/personal-react-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/logo-sub.png": "/personal-react-portfolio/static/media/logo-sub.c8c51591862fbe236944.png",
     "static/media/LaBelleAurore.woff": "/personal-react-portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
@@ -14,12 +15,12 @@
     "static/media/CoolveticaRg-Regular.woff2": "/personal-react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/github.svg": "/personal-react-portfolio/static/media/github.0ade81e025dd2cd1a72c90cd41371e22.svg",
     "index.html": "/personal-react-portfolio/index.html",
-    "main.0c560f28.css.map": "/personal-react-portfolio/static/css/main.0c560f28.css.map",
-    "main.196871da.js.map": "/personal-react-portfolio/static/js/main.196871da.js.map",
+    "main.1f9ff3ee.css.map": "/personal-react-portfolio/static/css/main.1f9ff3ee.css.map",
+    "main.3b4bfb5a.js.map": "/personal-react-portfolio/static/js/main.3b4bfb5a.js.map",
     "787.a2cb61a6.chunk.js.map": "/personal-react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c560f28.css",
-    "static/js/main.196871da.js"
+    "static/css/main.1f9ff3ee.css",
+    "static/js/main.3b4bfb5a.js"
   ]
 }
