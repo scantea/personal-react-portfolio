@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/personal-react-portfolio/static/css/main.a85582ad.css",
-    "main.js": "/personal-react-portfolio/static/js/main.7b8643da.js",
+    "main.js": "/personal-react-portfolio/static/js/main.c990e34b.js",
     "static/js/787.a2cb61a6.chunk.js": "/personal-react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/web-pic.png": "/personal-react-portfolio/static/media/web-pic.6200872a433db9831ef5.png",
     "static/media/chatbot.png": "/personal-react-portfolio/static/media/chatbot.9c4a768f128e654d6506.png",
     "static/media/logo-s.png": "/personal-react-portfolio/static/media/logo-s.f89f2ab45655e08ffcea.png",
+    "static/media/board.png": "/personal-react-portfolio/static/media/board.d0727fe6ca8fafabbea0.png",
     "static/media/resume.pdf": "/personal-react-portfolio/static/media/resume.cc98d327429046d37fc9.pdf",
     "static/media/self.png": "/personal-react-portfolio/static/media/self.e2b508e17c239a28cc47.png",
+    "static/media/iphone.png": "/personal-react-portfolio/static/media/iphone.9f63bb0e0a5c1bd23a72.png",
     "static/media/helvetica-neu.ttf": "/personal-react-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/logo-sub.png": "/personal-react-portfolio/static/media/logo-sub.c8c51591862fbe236944.png",
     "static/media/LaBelleAurore.woff": "/personal-react-portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
@@ -17,11 +19,11 @@
     "static/media/github.svg": "/personal-react-portfolio/static/media/github.0ade81e025dd2cd1a72c90cd41371e22.svg",
     "index.html": "/personal-react-portfolio/index.html",
     "main.a85582ad.css.map": "/personal-react-portfolio/static/css/main.a85582ad.css.map",
-    "main.7b8643da.js.map": "/personal-react-portfolio/static/js/main.7b8643da.js.map",
+    "main.c990e34b.js.map": "/personal-react-portfolio/static/js/main.c990e34b.js.map",
     "787.a2cb61a6.chunk.js.map": "/personal-react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a85582ad.css",
-    "static/js/main.7b8643da.js"
+    "static/js/main.c990e34b.js"
   ]
 }
