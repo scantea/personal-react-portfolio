@@ -1,3 +1,7 @@
+.main-page {
+  overflow-y: scroll;
+  max-height:900px;
+}
 h1 {
   font-family: 'Helvetica Neue';
   font-size:56px;
@@ -29,12 +33,17 @@ h1 {
       color: #ede2e2;
     }
   }
-  .projects{
-    height: 70vh;
-    overflow-y: auto;
-    margin-left: 20%;
-    margin-top: 8%;
+  .portfolio-page {
+    margin: 100px auto;
+    padding-bottom: 10px;
+    max-width: 1200px;
   }
+  // .projects{
+  //   height: 70vh;
+  //   overflow-y: auto;
+  //   margin-left: 20%;
+  //   margin-top: 8%;
+  // }
 }
 
 
