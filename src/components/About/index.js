@@ -44,7 +44,7 @@ const About = () => {
 
         <div className="stage-cube-cont" ref={container}></div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-pulse" />
     </>
   );
 };

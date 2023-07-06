@@ -34,7 +34,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-pulse" />
     </div>
   );
 };

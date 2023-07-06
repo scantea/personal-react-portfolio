@@ -103,7 +103,7 @@ const Contact = () => {
         </div>
         <div className="animation-container" ref={container}></div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-pulse" />
     </>
   );
 };
