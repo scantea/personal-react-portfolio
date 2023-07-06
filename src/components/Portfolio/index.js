@@ -21,7 +21,7 @@ const Portfolio = () => {
 
   return (
     <div className="main-page">
-      <h1>Work Experience and Projects</h1>
+      <h1>Projects and Resume - more to come!</h1>
       <div className="page-wrapper">
         <Link className="flat-button" onClick={onButtonClick}>
           RESUME
